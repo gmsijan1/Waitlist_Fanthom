@@ -36,7 +36,7 @@ export default function Page() {
         onChange={(e) => setName(e.target.value)}
       />
 
-      <button onClick={handleSubmit}>Create User</button>
+      <button onClick={handleSubmit}>Join Waitlist</button>
     </div>
   );
 }
