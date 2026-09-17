@@ -117,6 +117,8 @@ input {
 .waitlist-form input {
   flex: 1;
   min-width: 0;
+  min-height: 52px;
+  flex-shrink: 0;
   height: 52px;
   padding: 0 16px;
   border: 1px solid var(--line-strong);
